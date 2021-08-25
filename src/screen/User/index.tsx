@@ -61,7 +61,9 @@ const User = props => {
 
     setSearchValue(searchTxt);
 
-    props.getUserActions.getUserListAction(searchTxt, page);
+    props.getUserActions.getUserListAction(searchTxt, page,   props.getUserListData !== undefined
+      ? props.getUserListData
+      : []);
   };
 
   const renderTitleBar = () => (

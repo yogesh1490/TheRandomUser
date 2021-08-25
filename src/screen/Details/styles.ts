@@ -43,7 +43,7 @@ const styles = StyleSheet.create({
     padding: 10,
     textAlign: 'center',
   },
-  scrollSubView: {flexGrow: 1, height: 1.4 * height},
+  scrollSubView: {flexGrow: 1, height:   height},
   trackDetails: {fontSize: 16, color: 'black', padding: 20, paddingTop: 1},
   imageTrackPicture: {
     height: 200,
